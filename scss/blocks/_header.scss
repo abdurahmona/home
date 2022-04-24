@@ -1,0 +1,37 @@
+.site-header {
+    &__container {
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__list {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    &__item + &__item {
+        margin-left: 32px;
+    }
+
+
+    &__link {
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #83888F;
+        transform: color 2s, text-decoration 2s;
+    }
+
+
+    &__link:hover {
+        text-decoration:underline;
+        color: blue;
+    }
+}
